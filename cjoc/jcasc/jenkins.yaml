@@ -89,7 +89,7 @@ license:
 
 support:
   automatedBundleConfiguration:
-    enabled: false
+    enabled: true
 
 unclassified:
   bundleStorageService:
