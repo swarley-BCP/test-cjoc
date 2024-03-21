@@ -4,17 +4,17 @@ jenkins:
 
   authorizationStrategy: "cloudBeesRoleBasedAccessControl"
   numExecutors: 0
-  # securityRealm:
-  #   local:
-  #     users:
-  #       - id: "rye"
-  #         name: "Rye Carrigan"
-  #         password: ${decodeBase64:${adminPassword}}
-  #         properties:
-  #           - blueSteelRedirectOptOutProperty:
-  #               optOut: true
-  #           - mailer:
-  #               emailAddress: "rcarrigan@cloudbees.com"
+  securityRealm:
+    local:
+      users:
+        - id: "jmo"
+          name: "jeremy"
+          password: adminPassword
+          properties:
+            - blueSteelRedirectOptOutProperty:
+                optOut: true
+            - mailer:
+                emailAddress: ""
   #       - id: "orange"
   #         name: "Orange Demo"
   #         password: ${decodeBase64:${demoPassword}}
