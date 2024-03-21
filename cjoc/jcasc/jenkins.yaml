@@ -65,7 +65,7 @@ beekeeper:
     autoUpgradePlugins: false
 
 cloudBeesCasCServer:
-  defaultBundle: "main/default-global"
+  defaultBundle: "main/default-2.426"
   disableRemoteValidation: false
   visibility: true
 

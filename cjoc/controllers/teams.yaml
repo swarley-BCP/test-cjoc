@@ -31,7 +31,7 @@ items:
       name: team-purple-1
       configuration:
         kubernetes:
-          image: "CloudBees CI - Managed Controller - ${v2312}"
+          image: "CloudBees CI - Managed Controller - ${v2401}"
       properties:
         - configurationAsCode:
             bundle: main/default-2.426
@@ -40,7 +40,7 @@ items:
       name: team-purple-2
       configuration:
         kubernetes:
-          image: "CloudBees CI - Managed Controller - ${v2312}"
+          image: "CloudBees CI - Managed Controller - ${v2401}"
       properties:
         - configurationAsCode:
             bundle: main/default-2.426
@@ -73,7 +73,7 @@ items:
       name: team-orange-1
       configuration:
         kubernetes:
-          image: "CloudBees CI - Managed Controller - ${v2312}"
+          image: "CloudBees CI - Managed Controller - ${v2401}"
       properties:
         - configurationAsCode:
             bundle: main/default-2.426
@@ -82,7 +82,7 @@ items:
       name: team-orange-2
       configuration:
         kubernetes:
-          image: "CloudBees CI - Managed Controller - ${v2312}"
+          image: "CloudBees CI - Managed Controller - ${v2401}"
       properties:
         - configurationAsCode:
             bundle: main/default-2.426
