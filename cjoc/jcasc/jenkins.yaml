@@ -5,32 +5,32 @@ jenkins:
   authorizationStrategy: "cloudBeesRoleBasedAccessControl"
   numExecutors: 0
   # securityRealm:
-    local:
-      users:
-        - id: "rye"
-          name: "Rye Carrigan"
-          password: ${decodeBase64:${adminPassword}}
-          properties:
-            - blueSteelRedirectOptOutProperty:
-                optOut: true
-            - mailer:
-                emailAddress: "rcarrigan@cloudbees.com"
-        - id: "orange"
-          name: "Orange Demo"
-          password: ${decodeBase64:${demoPassword}}
-          properties:
-            - blueSteelRedirectOptOutProperty:
-                optOut: true
-            - mailer:
-                emailAddress: "rcarrigan+orange@cloudbees.com"
-        - id: "purple"
-          name: "Purple Demo"
-          password: ${decodeBase64:${demoPassword}}
-          properties:
-            - blueSteelRedirectOptOutProperty:
-                optOut: true
-            - mailer:
-                emailAddress: "rcarrigan+purple@cloudbees.com"
+  #   local:
+  #     users:
+  #       - id: "rye"
+  #         name: "Rye Carrigan"
+  #         password: ${decodeBase64:${adminPassword}}
+  #         properties:
+  #           - blueSteelRedirectOptOutProperty:
+  #               optOut: true
+  #           - mailer:
+  #               emailAddress: "rcarrigan@cloudbees.com"
+  #       - id: "orange"
+  #         name: "Orange Demo"
+  #         password: ${decodeBase64:${demoPassword}}
+  #         properties:
+  #           - blueSteelRedirectOptOutProperty:
+  #               optOut: true
+  #           - mailer:
+  #               emailAddress: "rcarrigan+orange@cloudbees.com"
+  #       - id: "purple"
+  #         name: "Purple Demo"
+  #         password: ${decodeBase64:${demoPassword}}
+  #         properties:
+  #           - blueSteelRedirectOptOutProperty:
+  #               optOut: true
+  #           - mailer:
+  #               emailAddress: "rcarrigan+purple@cloudbees.com"
   primaryView:
     masters:
       jobFilters:
