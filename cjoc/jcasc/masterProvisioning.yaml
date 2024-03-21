@@ -1,0 +1,13 @@
+masterProvisioning:
+  dockerImageDefinitionConfiguration:
+    images:
+    - imageTag: "cloudbees/cloudbees-core-mm:${v2403}"
+      name: "CloudBees CI - Managed Controller - ${v2403}"
+  kubernetes:
+    cpus: "2"
+    disk: "50"
+    memory: "4096"
+    nodeSelectors: "jenkins=controller"
+    systemProperties: |
+      casc.merge.strategy=override
+      com.cloudbees.opscenter.client.casc.ConfigurationUpdaterTask.recurrencePeriod=15
