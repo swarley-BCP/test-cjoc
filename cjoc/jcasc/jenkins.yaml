@@ -4,7 +4,7 @@ jenkins:
 
   authorizationStrategy: "cloudBeesRoleBasedAccessControl"
   numExecutors: 0
-  securityRealm:
+  # securityRealm:
     local:
       users:
         - id: "rye"
@@ -65,7 +65,7 @@ beekeeper:
     autoUpgradePlugins: false
 
 cloudBeesCasCServer:
-  defaultBundle: "main/default-2.426"
+  defaultBundle: "main/default-2.440"
   disableRemoteValidation: false
   visibility: true
 
@@ -89,7 +89,7 @@ license:
 
 support:
   automatedBundleConfiguration:
-    enabled: true
+    enabled: false
 
 unclassified:
   bundleStorageService:
