@@ -5,7 +5,7 @@ groups:
   - name: Administrators
     members:
       users:
-        - rye
+        - jmo
     roles:
       - name: administrator
         grantedAt: current
