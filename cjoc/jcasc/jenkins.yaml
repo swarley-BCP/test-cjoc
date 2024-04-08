@@ -9,7 +9,7 @@ jenkins:
       users:
         - id: "jmo"
           name: "jeremy"
-          password: ${adminPassword}
+          password: adminPassword
           properties:
             - blueSteelRedirectOptOutProperty:
                 optOut: true
